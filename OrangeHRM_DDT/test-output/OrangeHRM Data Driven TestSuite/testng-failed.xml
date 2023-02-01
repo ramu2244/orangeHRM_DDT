@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRM Data Driven TestSuite]">
+  <test name="Admin Login Test with Valid Data(failed)">
+    <classes>
+      <class name="orangehrm.testcases.AdminLoginTestwithValidData">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkAdminLogin"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithValidData -->
+    </classes>
+  </test> <!-- Admin Login Test with Valid Data(failed) -->
+  <test name="Admin Login Test with Invalid Data(failed)">
+    <classes>
+      <class name="orangehrm.testcases.AdminLoginTestwithInvalidData">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkAdminLogin"/>
+        </methods>
+      </class> <!-- orangehrm.testcases.AdminLoginTestwithInvalidData -->
+    </classes>
+  </test> <!-- Admin Login Test with Invalid Data(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Data Driven TestSuite] -->

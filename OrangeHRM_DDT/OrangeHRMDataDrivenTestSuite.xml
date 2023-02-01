@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Data Driven TestSuite">
+
+	<test name="Admin Login Test with Valid Data">	
+		<classes>
+			<class name="orangehrm.testcases.AdminLoginTestwithValidData"></class>
+		</classes>	
+	</test>
+
+	<test name="Admin Login Test with Invalid Data">
+		<classes>
+			<class name="orangehrm.testcases.AdminLoginTestwithInvalidData"></class>
+		</classes>
+	</test>
+
+</suite>
